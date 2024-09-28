@@ -1,0 +1,85 @@
+.comingSoonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 20px;
+  position: relative    ;
+}
+
+.gridGlow {
+  position: absolute;
+  bottom: -100px;
+  left: -100px;
+  margin-left: -100px;
+  margin-bottom: -300px;
+  width: 1000px;
+  height: 1000px;
+}
+
+.blurGlow {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: -300px;
+    margin-top: -400px;
+    width: 1000px;
+    height: 1000px;
+}
+
+.logoSpin {
+  height: 150px;
+  animation: spin 5s linear infinite;
+}
+
+@media (max-width: 768px) {
+  .logoSpin {
+    height: 100px;
+  }
+
+  .typingText {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .logoSpin {
+    height: 80px;
+  }
+
+  .typingText {
+    font-size: 1em;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.typingText {
+  color: #fff;
+  white-space: normal; /* Allow text to break and wrap */
+  overflow: hidden;
+  border-right: 2px solid #fff;
+  font-size: 1.5em;
+  text-align: center; /* Center the text */
+  word-wrap: break-word; /* Break long words if needed */
+  animation: blink-caret 1s step-end infinite;
+}
+
+/* Optional: Blinking caret effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
