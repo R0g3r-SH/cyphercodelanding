@@ -1,0 +1,106 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    font: var(--font-family);
+}
+.companies{
+    width: 100%;
+    text-align: center;
+    justify-content: space-evenly;    
+    margin: 20px;
+    padding: 15px;
+}
+.companies p {
+    font-size: 24px ;
+    font-weight: 700;
+}
+.reviews{
+    width: 100%;
+    height: 612px;
+    margin: 20px;
+    padding: 20px;
+    background-color:#11063C;
+    border-radius: 20px;
+    stroke-width: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5), inset 0 0 15px rgba(255, 255, 255, 0.1); /* Outer and inner shadow */
+    color: white;
+    display: flex;
+    font-family:  var(--font-family);
+    flex-direction: row;
+    
+    align-items: center;
+}
+.think{
+    font-size: 50px ;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px;
+}
+
+.reviewCard {
+    width: 385px;
+    height: 452px;
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #655afc8e, #11063C);
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5), inset 0 0 15px rgba(255, 255, 255, 0.1); 
+    color: white;
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.titleReview{
+    margin-top: 20px;
+    
+    
+    
+}
+.titleReview p{
+    font-size:18px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.clients{
+    width: 100%;
+    justify-content: left;
+    
+    align-items: center;
+    margin-top: auto; /* Pushes .clients to the bottom */
+    display: flex;
+    flex-direction: row;
+  }
+
+.clients img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.clients p{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+                
+.Carrousel {
+    width: 100%;  
+    display: flex;
+    /* flex-direction: row;  Ensure items are in a row */
+    
+}
+
+
+
