@@ -1,9 +1,15 @@
+
 :root {
     --primary-color: #665AFC;
     --font-family: 'Plus Jakarta Sans', sans-serif;
     --secondary-color: #F5F5F5;
     --background-color: #060027;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+  
 
 body {
     font-family: var(--font-family);
@@ -34,9 +40,9 @@ body {
     width: 90%; /* Make it take full width */
     flex-direction: column;
     box-sizing: border-box;
-
-
 }
+
+
 
 h1, h2, h3, h4, h5 {
     font-family: var(--font-family);
@@ -66,10 +72,16 @@ p {
     cursor: pointer;
     font-size: 1rem;
     font-weight: 500;
-   
+    text-decoration: none !important;
     border: 1px solid var(--primary-color);
     border-radius: 20px;
 }
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}   
+
 .btn-secondary {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -79,7 +91,40 @@ p {
     cursor: pointer;
     font-size: 1rem;
     font-weight: 500;
+
+     text-decoration: none !important;  
   
     border: 1px solid var(--primary-color);
     border-radius: 20px;
 }
+
+
+.mobile-container {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    height: fit-content;
+    width: 90%; /* Make it take full width */
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: red;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        display: none; /* Hides the element */
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .mobile-container {
+        display: none;
+    }
+}
+

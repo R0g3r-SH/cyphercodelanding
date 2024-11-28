@@ -2,7 +2,17 @@ import React from "react";
 import styles from "./home.module.css";
 import robot from "../../assets/img/robot1.png";
 
+
+
 const Home = () => {
+
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className={styles.home}>
       <div className={styles.homeContent}>
@@ -18,7 +28,11 @@ const Home = () => {
         </p>
         <button
         className="btn-secondary"
-        >Contact Us</button>
+        onClick={() => scrollToSection("services")}
+        >
+
+          Get Started
+        </button>
       </div>
 
       <div className={styles.homeImage}>

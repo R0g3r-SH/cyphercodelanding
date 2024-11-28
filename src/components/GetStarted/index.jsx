@@ -9,7 +9,11 @@ const GetStarted = () => {
       <p>
       Take your business to the next level with cutting-edge AI solutions designed to drive innovation and efficiency. Let's create intelligent systems tailored for your success.
       </p>
-        <button className="btn-secondary">Contact Us</button>
+        <a 
+          href="https://calendly.com/cyphercode-ai"
+          target="_blank"
+          rel="noreferrer"
+        className="btn-secondary">Contact Us</a>
         </div>
     </div>
   );
