@@ -14,7 +14,9 @@ const Home = () => {
   };
 
   return (
-    <div className={styles.home}>
+    <div className={styles.home}
+    id="home"
+    >
       <div className={styles.homeContent}>
         <h1
         className={styles.homeTitle}

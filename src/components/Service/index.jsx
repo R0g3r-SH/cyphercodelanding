@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./service.module.css";
-import robot from "../../assets/img/robot1.png";
+import robot from "../../assets/img/robot_se.png";
+import cloud from "../../assets/img/cloud2.png";
+import block from "../../assets/img/block.svg";
 
 const Service = () => {
   return (
@@ -29,10 +31,10 @@ const Service = () => {
               support, and enhance user engagement, leading to improved customer
               satisfaction and streamlined operations
             </p>
-            <img src="../../public/robot_se.png" alt="" />
+            <img src={robot} alt="" />
           </div>
           <div className={styles.cloud}>
-            <img src="../../public/cloud.png" alt="" />
+            <img src={cloud} alt="" />
 
             <p className={styles.tchat}>Cloud Solutions</p>
             <p className={styles.schat}>
@@ -45,7 +47,7 @@ const Service = () => {
         </div>
         {/* rectangulos el rec largo */}
         <div className={styles.blockchain}>
-          <img src="../../public/block.svg" alt="" />
+          <img src={block } alt="" />
           <div className={styles.blockchainText}>
             <p className={styles.tchat}>
               Blockchain <br></br> Development

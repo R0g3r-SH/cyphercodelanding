@@ -7,7 +7,7 @@ import BlurGlow from "../../assets/img/Blur-Glow.svg";
 import GridGlow from "../../assets/img/Grid-Glow.svg";
 import styles from "./landing.module.css";
 import Service from "../../components/Service";
-import Clients from "../../components/Clients";
+
 const Landing = () => {
   return (
 
