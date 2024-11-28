@@ -1,0 +1,26 @@
+.featuresContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top:10rem;
+}
+
+.featuresLogoContainer {
+  background-color: var(--primary-color); /* replace with your desired color */
+  width: 70px; /* adjust size as needed */
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoSpin {
+  
+  width: 55%; /* adjust size of the logo */
+  margin-top: 5px; /* adjust margin as needed */
+  margin-right: 1px; /* adjust margin as needed */
+
+}
