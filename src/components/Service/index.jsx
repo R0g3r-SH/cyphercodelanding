@@ -3,6 +3,7 @@ import styles from "./service.module.css";
 import robot from "../../assets/img/robot_se.png";
 import cloud from "../../assets/img/cloud2.png";
 import block from "../../assets/img/block.svg";
+import logo from "../../assets/img/logo_redondo.svg"
 
 const Service = () => {
   return (
@@ -13,7 +14,7 @@ const Service = () => {
       <div 
         id="services"
       className={styles.header}>
-        <img src="/logo_redondo.svg" alt="" />
+        <img src={logo} alt="" />
         <p className={styles.title}>Unique Features of CypherCode</p>
         <p className={styles.subtile}>
           We specialize in cutting-edge AI solutions designed to transform your

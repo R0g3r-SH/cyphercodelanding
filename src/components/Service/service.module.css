@@ -144,7 +144,51 @@
     max-height: 90%;
     margin: 20px;
 }
-/* 
-.blockchain{
-
-} */
+@media (max-width: 768px) {
+    .services{
+        width: 100%;
+        display: flex;
+        padding: 5px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .subtitle{
+        font-size: 16px;
+    }
+    .header{
+        padding-top: 30px;
+        width: 100%;
+        margin: 20px;
+    }
+    .rectangles{
+        display: flex;
+        flex-direction: column;
+    }
+    .tchat{
+        padding-top: 10px;
+        font-size: 28px;
+    }
+    .schat{
+        font-size: 16px;
+    }
+    .cloud{
+        width: 100%;
+        padding: 10px;
+    }
+    .rectangles_all{
+        width: 100%;
+    }
+    .blockchain{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .blockchainText{
+        width: 100%;
+        padding: 10px;
+        margin-left: 0;
+    }
+}
