@@ -44,3 +44,52 @@
 }
 
 
+/* Tablets and smaller screens */
+@media (max-width: 768px) {
+  .homeTitle{
+    font-size: 40px;
+    font-weight:bold;
+    padding-bottom: 20px;
+  }
+  .homeContent{
+    width: 100%;
+    z-index: 1;
+    padding: 10px;    
+    
+  }
+  .homeImage{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center ;
+    
+  }
+  .homeImage img{
+    width:100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: fill;
+    position:relative;
+    font-weight:500 ;
+    
+    
+  }
+  .homeText{
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .home{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 120px;
+  }
+  .btn-secondary{
+    width: 201;
+    height: 60;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+
+

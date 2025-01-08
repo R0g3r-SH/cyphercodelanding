@@ -19,3 +19,19 @@
   text-align: center;
   gap: 20px;
 }
+@media (max-width: 900px) {
+  .getStarted{
+    padding-bottom: 20px;
+  }
+  .getStartedInner{
+    width: 90%;
+    padding: 20px;
+  }
+  .getStartedInner h1{
+    color:white;
+    font-weight: bold;
+  }
+  .getStartedInner p{
+    font-weight: 300;
+  }
+}

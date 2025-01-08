@@ -36,7 +36,7 @@ body {
     display: flex;
     justify-content:start;
     align-items: center;
-    height: fit-content;
+    height:max-content;
     width: 90%; /* Make it take full width */
     flex-direction: column;
     box-sizing: border-box;
@@ -107,7 +107,7 @@ p {
     width: 90%; /* Make it take full width */
     flex-direction: column;
     box-sizing: border-box;
-    background-color: red;
+    /* background-color: red; */
     height: 100vh;
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -118,11 +118,11 @@ p {
 
 @media screen and (max-width: 768px) {
     .main-container {
-        display: none; /* Hides the element */
+        display: none; /*Hides the element*/
     }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     .mobile-container {
         display: none;
     }
